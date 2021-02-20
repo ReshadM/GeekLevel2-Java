@@ -1,9 +1,9 @@
 package Lesson2;
 
-public class CatchErorr {
+public class Isklucheniya {
 
         public static void main(String[] args) {
-            CatchErorr main = new CatchErorr();
+            Isklucheniya main = new Isklucheniya();
             String[][] correct = {
                     {"1", "2", "3", "4"},
                     {"1", "2", "3", "4"},

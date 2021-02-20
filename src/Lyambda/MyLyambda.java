@@ -1,2 +1,6 @@
-package Lyambda;public class MyLyambda {
+package Lyambda;
+
+public class MyLyambda {
+
+
 }
