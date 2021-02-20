@@ -27,14 +27,12 @@ public class Participants {
         };
         
 
-
         Human.run(human, runTrack);
         Human.jump(human, jump);
         Cat.run(cat, runTrack);
         Cat.jump(cat, jump);
         Robot.run(robot, runTrack);
         Robot.jump(robot, jump);
-
 
     }
 }

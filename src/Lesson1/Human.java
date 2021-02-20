@@ -17,7 +17,6 @@ public class Human {
    }
 
 
-
    public static void run(Human[] human, RunningTrack runTrack) {
 
        for(Human runing : human){

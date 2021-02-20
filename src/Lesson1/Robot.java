@@ -16,6 +16,7 @@ public class Robot {
 
     }
 
+
     public static void run(Robot[] robot, RunningTrack runTrack) {
 
         for (Robot runing : robot) {
@@ -31,7 +32,6 @@ public class Robot {
         }
 
     }
-
 
 
     public static void jump (Robot[]robot, Wall jump){

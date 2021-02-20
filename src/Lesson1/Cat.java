@@ -33,11 +33,6 @@ public class Cat {
     }
 
 
-
-
-
-
-
     public static void jump (Cat[]cat, Wall jump){
 
         for (Cat jumping : cat) {
@@ -53,7 +48,5 @@ public class Cat {
         }
 
     }
-
-
 
 }
