@@ -2,8 +2,11 @@ package Lesson1;
 
 public class Participants {
 
+   public int runDistance;
+   public int jumpHeight;
+
     public static void main(String[] args){
-        RunningTrack runTrack = new RunningTrack(800);
+        RunningTrack runTrack = new RunningTrack(400);
         Wall jump = new Wall(25);
 
 
@@ -14,7 +17,7 @@ public class Participants {
 
 
         Human[] human = {
-                new Human("Maksim", 100, 5),
+                new Human("Maksim", 500, 5),
                 new Human("Pasha", 150, 3),
         };
 
@@ -24,14 +27,12 @@ public class Participants {
         };
         
 
-
         Human.run(human, runTrack);
         Human.jump(human, jump);
         Cat.run(cat, runTrack);
         Cat.jump(cat, jump);
         Robot.run(robot, runTrack);
         Robot.jump(robot, jump);
-
 
     }
 }
